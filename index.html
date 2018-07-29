@@ -1,9 +1,118 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>First HTML Test Page</title>
+<title>Madullance</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color: #666;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+
+/* Container for flexboxes */
+section {
+    display: -webkit-flex;
+    display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    background: #ccc;
+    padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Style the content */
+article {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    background-color: #f1f1f1;
+    padding: 10px;
+}
+
+/* Style the footer */
+footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    section {
+      -webkit-flex-direction: column;
+      flex-direction: column;
+    }
+}
+</style>
 </head>
 <body>
-	<h1>Hi This is my first test page</h1>
+
+<h2>PORAMADULLA CENTRAL COLLEGE</h2>
+<p><b>Poramadulla Central College</b> (Sinhalese: පොරමඩුල්ල මධ්‍ය මහා විද්‍යලය) is a public national school in Rikillagaskada, Hanguranketha, Sri Lanka.Flanked by the Diyatalawa mount on one side and the Kandapola area on the other, the school serves as a sports school that helps train children talented in sports to improve and harness their skills(Sinhalese: පොරමඩුල්ල මධ්‍ය මහා විද්‍යලය) is a public national school in Rikillagaskada, Hanguranketha, Sri Lanka.Flanked by the Diyatalawa mount on one side and the Kandapola area on the other, the school serves as a sports school that helps train children talented in sports to improve and harness their skills </p>
+
+
+<header>
+  <h2>History</h2>
+</header>
+
+
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">History</a></li>
+      <li><a href="#">Athletics</a></li>
+      <li><a href="#">Clubs</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>History</h1>
+    <p>Poramadulla Central College opened in Karandagolla in 1901. The school became a bilingual school. At one point it moved to the campus of Poramadulla primary school. On 1 February 1946 the school was designated as a Central College due to a request from the villagers and principal M.D Gunawardhana. On 1 March 1946 the school began holding classes in its current facility. The school's website stated that "it is believed that girls' hostel is the [“Opatha walawwa" (Mahagedara walawwa)] [at present]."
+
+    The current main building opened on 15 November 1956. In 1957 the girls' hostel opened in the main building and a boys' hostel opened during the same year. In 1957 the girls' hostel moved to "Opatha walawwa". In 1959, The college's magazine "Vidueliya magazine" (විදු එළිය) began publication,and a gymnasium and open theatre opened in 1962.</p>
+  </article>
+
+  <article>	
+	<p><img src="images/Rt.Hon_Don_Stephen_Senanayaka.jpg"></p>
+	<p>D.S.Senanayake Laying the Cornerstone. </p>
+   </article> 
+</section>
+
+    <h1>Athletics</h1>
+    <p>The school's athletic programs include badminton, basketball, cricket, hockey, karate, netball, volleyball, and wrestling.[4] The school was one of the first in the Nuwara Eliya District to play hard ball cricket</p>
+  
+
+	<h1>Clubs</h1>
+	<p>In addition the school has a chess team Clubs held by the school include the Air Force cadet corps, the Army Cadets corps, Boy Scouts, the Eastern Band, the English Literary Association, the Girl Guiding Group, Mahavali Environment Project Group, the Photographic Association,IT society, Red Cross Society, Science Society, Sinhala Literary Association, St. John's Ambulance Service Society, and the Western Band.</p>
+
+<footer>
+  <p>&#169; පොරමඩුල්ල මධ්‍ය මහා විද්‍යලය publication unit</p>
+</footer>
+
 </body>
 </html>
